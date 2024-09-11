@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+        <!-- CSSHAKE -->
+        <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+
+        <!-- ANIMATECSS -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- Tailwind -->
+        <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <div class="flex min-h-screen h-full md:overflow-y-hidden">
+
+        <div class="left-side hidden md:block w-1/2 leading-none font-semibold text-[60px] text-[#f95b15]">
+            <div class="top h-1/2 flex justify-center items-center">
+                <h2 class="animate__animated  animate__backInDown
+                w-[130px]
+                before:block before:absolute before:-inset-x-10 before:w-3 before:h-full before:bg-[#f95b15]  relative
+                                 ">
+                    LOG <br> IN
+
+                </h2>
+            </div>
+
+            <div class="bottom h-1/2 flex justify-center items-center text-white bg-[#f95b15]">
+
+                <h2 class="animate__animated animate__backInUp
+
+                before:block before:absolute before:-inset-x-10 before:bg-white before:w-3 before:h-full relative
+                ">
+                    SIGN <br> UP
+                </h2>
+            </div>
+        </div>
+
+
+
+        <div class="right-side flex-grow md:w-1/2  ">
+
+            <div class="md:px-[6rem] px-9 bg-[#f1f2ed] size-full">
+
+                <div class="py-[30px]  ">
+
+                    <div class="title flex mb-4 justify-center">
+                        <h1 class="shake animate__animated animate__jello  w-fit text-3xl font-bold text-[#f95b15]">Welcome back!</h1>
+
+                    </div>
+                    <p class="text-center font-semibold"> Enter your details</p>
+
+                    <form action="" class="mt-6">
+
+                        <div class="inp-full  mb-4">
+                            <label for="" class="label-inp font-medium">
+                                <!-- LABEL -->
+                                Full name
+                            </label>
+                            <div class="mt-0.5 h-8 border-b-2 border-b-[#f95b15]">
+                                <input placeholder="Full name" type="text" name="" id="" class="size-full outline-none bg-transparent">
+                            </div>
+                        </div>
+
+                        <div class="inp-full mb-4">
+                            <label for="" class="label-inp font-medium">
+                                <!-- LABEL -->
+                                Email address 
+                            </label>
+                            <div class="mt-0.5 h-8 border-b-2 border-b-[#f95b15]">
+                                <input placeholder="Email address " type="text" name="" id="" class="size-full outline-none bg-transparent">
+                            </div>
+                        </div>
+
+
+
+                        <div class="block md:flex   justify-between">
+                            <div class="inp md:w-[45%] mb-4">
+                                <label for="" class="label-inp font-medium">
+                                    <!-- LABEL -->
+                                    Phone number
+                                </label>
+                                <div class="mt-0.5 h-8 border-b-2 border-b-[#f95b15]">
+                                    <input placeholder="Phone number" type="text" name="" id="" class="size-full outline-none bg-transparent">
+                                </div>
+                            </div>
+    
+                            
+                            <div class="inp md:w-[45%] mb-4">
+                                <label for="" class="label-inp font-medium">
+                                    <!-- LABEL -->
+                                    Birthday
+                                </label>
+                                <div class="mt-0.5 h-8 border-b-2 border-b-[#f95b15]">
+                                    <input placeholder="Birthday" type="text" name="" id="" class="size-full outline-none bg-transparent">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <h2 class="mb-3 font-bold ">Address Details</h2>
+
+                        <div class="block md:flex justify-between">
+
+
+                            <div class="inp md:w-[45%] mb-4">
+                                <div class="mt-0.5 h-8 border-b-2 border-b-[#f95b15]">
+                                    <input placeholder="Enter area" type="text" name="" id="" class="size-full outline-none bg-transparent">
+                                </div>
+                            </div>
+    
+                            
+                            <div class="inp md:w-[45%] mb-4">
+ 
+                                <div class="mt-0.5 h-8 border-b-2 border-b-[#f95b15]">
+                                    <input placeholder="Enter city" type="text" name="" id="" class="size-full outline-none bg-transparent">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block md:flex   justify-between">
+
+
+                            <div class="inp md:w-[45%] mb-4">
+                                <div class="mt-0.5 h-8 border-b-2 border-b-[#f95b15]">
+                                    <input placeholder="Enter state" type="text" name="" id="" class="size-full outline-none bg-transparent">
+                                </div>
+                            </div>
+    
+                            
+                            <div class="inp md:w-[45%] mb-4">
+ 
+                                <div class="mt-0.5 h-8 border-b-2 border-b-[#f95b15]">
+                                    <input placeholder="Post code" type="text" name="" id="" class="size-full outline-none bg-transparent">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex font-medium justify-between">
+                            <div class="remember"> 
+                                <label> 
+                                <input type="checkbox" class="" id="check">
+
+                                    Remember me 
+                                </label>
+                                
+                            </div>
+
+
+                            <div class="forgot text-end">
+                                <a class="hover:text-[#f95b15] shake-opacity" href="">Forgot the password?</a>
+                            </div>
+                        </div>
+                        <div class="w-full flex mt-5">
+                            
+    <!-- MARK:Button -->
+                            <button class="text-white mx-auto rounded-full w-fit px-8 py-2 bg-[#f95b15] active:bg-[#d74100]">Log in</button>
+
+
+                        </div>
+
+
+
+
+
+
+                    </form>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
